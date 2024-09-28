@@ -18,17 +18,17 @@ It is essential to ensure the installation of the following dependencies:
 
 1. **Launching the Program**: The program can be initiated by running `predictor.py`, which will open the main window.
 
-   ![1](img\1.png)
+   ![1]([img\1.png](https://github.com/xzfang00/PreAIS/blob/main/img/1.png))
 
 2. **Uploading a File**: The “Upload File” button should be clicked to select a FASTA file containing biological sequences.
 
-   ![2](.\img\2.png)
+   ![2]([.\img\2.png](https://github.com/xzfang00/PreAIS/blob/main/img/1.png))
 
 3. **Conducting Predictions**: The “Predict” button should be clicked, after which the program will automatically read the file, perform k-mer feature extraction, and subsequently utilize the pretrained model for prediction.
 
 4. **Viewing Results**: Upon completion of the predictions, a results window will be displayed, showcasing the sequences, prediction outcomes (positive/negative), and corresponding probabilities.
 
-   ![3](.\img\3.png)
+   ![3]([.\img\3.png](https://github.com/xzfang00/PreAIS/blob/main/img/1.png))
 
 #### 4. Important Notes
 
