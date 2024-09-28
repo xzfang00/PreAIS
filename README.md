@@ -18,7 +18,7 @@ It is essential to ensure the installation of the following dependencies:
 
 1. **Launching the Program**: The program can be initiated by running `predictor.py`, which will open the main window.
 
-   ![1]([img\1.png](https://github.com/xzfang00/PreAIS/blob/main/img/1.png))
+   ![1](https://github.com/xzfang00/PreAIS/blob/main/img/1.png)
 
 2. **Uploading a File**: The “Upload File” button should be clicked to select a FASTA file containing biological sequences.
 
