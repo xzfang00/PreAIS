@@ -8,7 +8,7 @@ To provide an interactive experience for the intuitive demonstration of the expe
 
 It is essential to ensure the installation of the following dependencies:
 
-- Python 3.x
+- Python 3.9
 - Tkinter
 - PyTorch
 - Biopython
