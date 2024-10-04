@@ -144,7 +144,7 @@ def train_for_test(model, train_loader, test_data, test_lable, criterion, optimi
             print(f'Epoch {epoch + 1}/{num_epochs}, Train Loss: {train_loss:.4f}')
 
 if __name__ == '__main__':
-    # set_randomseed(42)
+    set_randomseed(42)
     file_path1 = "./data/positive_sequences5000.txt"
     file_path2 = "./data/negative_sequences5000.txt"
     data, label = process_data(file_pos_path=file_path1, file_neg_path=file_path2)
