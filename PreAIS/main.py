@@ -84,7 +84,7 @@ def cross_validation(data, data_labels, k=10):
         val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=1001, shuffle=False)
         model = model.to(device)
         criterion = nn.BCELoss()
-        optimizer = optim.Adam(model.parameters(), lr=0.002, weight_decay=1e-3)
+        optimizer = optim.Adam(model.parameters(), lr=0.002, weight_decay=5e-2)
 
         # Training
         train_model(model, train_loader, val_loader, criterion, optimizer, device, num_epochs=500, fold=fold)
@@ -160,6 +160,6 @@ if __name__ == '__main__':
 
     model = model_DNN_CNN(test_data.shape[1], 1)
     criterion = nn.BCELoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.00002, weight_decay=5e-2)
+    optimizer = optim.Adam(model.parameters(), lr=0.002, weight_decay=5e-2)
     train_for_test(model, train_loader, test_data, labels, criterion, optimizer, 50000)
 
