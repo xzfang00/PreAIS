@@ -18,7 +18,7 @@ It is essential to ensure the installation of the following dependencies:
 
 #### **model1：**
 
-1. **Launching the Program**: The program can be initiated by running `predictor.py`, which will open the main window.
+1. **Launching the Program**: The program can be initiated by running `predictor_model1.py`, which will open the main window.
 
    ![1](https://github.com/xzfang00/PreAIS/blob/main/img/1.png)
 
@@ -34,7 +34,7 @@ It is essential to ensure the installation of the following dependencies:
    
    #### **model2：**
    
-   1. **Launching the Program**: The program can be initiated by running `predictor.py`, which will open the main window.
+   1. **Launching the Program**: The program can be initiated by running `predictor_model2.py`, which will open the main window.
    
       ![1](https://github.com/xzfang00/PreAIS/blob/main/img/1.png)
    
